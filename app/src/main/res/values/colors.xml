@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appBarLayout">#FFEFEF</color>
+    <color name="primaryColor">#FFD54F</color>
+    <color name="secondaryColor">#002D5B</color>
+    <color name="textColor">#2A036F</color>
+    <color name="textColorLight">#A99797</color>
+    <color name="inputBackground">#F5F5F5</color>
+    <color name="buttonColor">#0B2DED</color>
+    <color name="textColorYellow">#FFC107</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="textColorBlue">#0B2DED</color>
+    <color name="textRed">#F63122</color>
+    <color name="textColorGreen">#4CAF50</color>
+    <color name="textColorRed">#F44336</color>
+    <color name="textColorWhite">#FFFFFF</color>
+
+    <color name="dark_blue">#0B2DED</color> <!-- Dark Blue when selected -->
+    <color name="light_blue">#8490D0</color> <!-- Light Blue when not selected -->
+</resources>

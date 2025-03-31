@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_1"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.facebiometric.app.ui.dashboard.HomeFragment"
+        android:label="fragment_dash_board"
+        tools:layout="@layout/fragment_dash_board" >
+
+        <action
+            android:id="@+id/action_dashBoardFragment_to_faceRecognitionFragment"
+            app:destination="@id/faceRecognitionFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_attendanceFragment"
+            app:destination="@id/attendanceFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/dashBoardFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_dashBoardFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/faceScanSuccessFragment"
+        android:name="com.facebiometric.app.ui.attendance_result.FaceScanSuccessFragment"
+        android:label="fragment_face_scan_success"
+        tools:layout="@layout/fragment_face_scan_success" />
+    <fragment
+        android:id="@+id/markAttendanceFragment"
+        android:name="com.facebiometric.app.ui.face_scan_registration.FaceRegistrationFragment"
+        android:label="fragment_mark_attendance"
+        tools:layout="@layout/fragment_face_registration" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.facebiometric.app.ui.login.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_dashBoardFragment"
+            app:destination="@id/dashBoardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_signInFragment_to_faceRecognitionFragment"
+            app:destination="@id/faceRecognitionFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_termAndConditionFragment"
+            app:destination="@id/termAndConditionFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.facebiometric.app.ui.login.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_dashBoardFragment"
+            app:destination="@id/dashBoardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_signUpFragment_to_markAttendanceFragment"
+            app:destination="@id/markAttendanceFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_termAndConditionFragment"
+            app:destination="@id/termAndConditionFragment" />
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/faceRecognitionFragment"
+        android:name="com.facebiometric.app.ui.face_scan_recognition.FaceRecognitionFragment"
+        android:label="fragment_face_recognition"
+        tools:layout="@layout/fragment_face_recognition" />
+    <fragment
+        android:id="@+id/walkthroughContainerFragment"
+        android:name="com.facebiometric.app.ui.walkthrough.WalkthroughContainerFragment"
+        android:label="WalkthroughContainerFragment" >
+        <action
+            android:id="@+id/action_walkthroughContainerFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.facebiometric.app.ui.splash_screen.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_walkthroughContainerFragment"
+            app:destination="@id/walkthroughContainerFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashBoardFragment"
+            app:destination="@id/dashBoardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/noInternetFragment"
+        android:name="com.facebiometric.app.ui.network.NoInternetFragment"
+        android:label="NoInternetFragment" />
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.facebiometric.app.ui.dashboard.ReportsFragment"
+        android:label="fragment_reports"
+        tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.facebiometric.app.ui.dashboard.AttendanceFragment"
+        android:label="fragment_attendance"
+        tools:layout="@layout/fragment_attendance" >
+        <action
+            android:id="@+id/action_attendanceFragment_to_faceRecognitionFragment"
+            app:destination="@id/faceRecognitionFragment" />
+        <action
+            android:id="@+id/action_attendanceFragment_to_faceRecognitionFragment2"
+            app:destination="@id/faceRecognitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.facebiometric.app.ui.dashboard.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/noLocationFragment"
+        android:name="com.facebiometric.app.ui.location.NoLocationFragment"
+        android:label="NoLocationFragment" />
+    <fragment
+        android:id="@+id/termAndConditionFragment"
+        android:name="com.facebiometric.app.ui.term_condition.TermAndConditionFragment"
+        android:label="fragment_term_and_condition"
+        tools:layout="@layout/fragment_term_and_condition" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.facebiometric.app.ui.term_condition.AboutUsFragment"
+        android:label="AboutUsFragment" />
+
+
+</navigation>

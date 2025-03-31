@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FaceBiometric</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="welcome_register">Welcome! Please fill in your credentials</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="scan_face_id">Scan Face ID</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="log_in">Log In</string>
+    <string name="login_welcome">Welcome back!</string>
+    <string name="new_here">New here?</string>
+    <string name="create_account">Create an account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="attendance_overview">Attendance Overview</string>
+    <string name="total_days_attended">Total Days Attended</string>
+    <string name="last_checked_in">Last Checked In</string>
+    <string name="present">*Present Days</string>
+    <string name="absent">*Absent</string>
+    <string name="lateness">Lateness</string>
+    <string name="sick_leaves">Sick Leaves</string>
+    <string name="other_leaves">Other Leaves</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="attendance_date_filter">Date Filter</string>
+    <string name="notifications">Notifications</string>
+    <string name="user_profile">User Profile</string>
+    <string name="graph_key">Graph Key</string>
+    <string name="late_days">Late Days</string>
+    <string name="imagemenu">imageMenu</string>
+    <string name="userName">Hi,Anubhav</string>
+</resources>

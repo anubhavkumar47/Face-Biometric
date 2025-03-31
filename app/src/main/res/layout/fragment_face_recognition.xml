@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.face_scan_recognition.FaceRecognitionFragment">
+
+    <!-- FrameLayout to hold SurfaceView (Camera Preview) and FaceOverlay -->
+    <FrameLayout
+        android:id="@+id/cameraFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar">
+
+        <!-- Camera Preview using SurfaceView -->
+        <androidx.camera.view.PreviewView
+            android:id="@+id/cameraPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+        <!-- Square Overlay (Always in the Center) -->
+        <ImageView
+            android:id="@+id/overlaySquare"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:src="@drawable/overlay_on_preview"
+            android:scaleType="fitCenter" />
+
+        <!-- Face Detection Overlay - Should be the same size as PreviewView -->
+        <com.facebiometric.app.ui.face_scan_registration.FaceOverLay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- Circular Progress Bar -->
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:donut_finished_color="@color/textColorYellow"
+        app:donut_max="100"
+        app:donut_progress="54"
+        app:donut_text="0%"
+        app:donut_unfinished_color="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/instructionText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Instruction Text -->
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Scanning Face\nPlease focus on the camera and hold still"
+        android:textColor="@color/textColorBlack"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

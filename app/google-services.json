@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602872899832",
+    "project_id": "facemark-ccb75",
+    "storage_bucket": "facemark-ccb75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602872899832:android:b4a51321528f55ecea330d",
+        "android_client_info": {
+          "package_name": "com.facebiometric.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvT9mzIiyr_OsCp7JSVgAPPrH3vufRTnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <!-- Collapsing Toolbar with App Bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/appBarLayout"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/app_image"
+                    android:layout_width="38dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:src="@drawable/facebiometric_logo" />
+
+                <TextView
+                    android:id="@+id/appName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/adlam_display"
+                    android:gravity="start"
+                    android:text="FaceBiometric"
+                    android:textColor="@color/textColorBlack"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <!-- App Logo -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/facebiometric_logo"
+                android:contentDescription="App Logo"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:animateLayoutChanges="true" />
+
+            <!-- App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Face Biomertic"
+                android:textSize="22sp"
+                android:fontFamily="@font/adlam_display"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black" />
+
+            <!-- Short Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Our app is specially designed for smart attendance management, integrating cutting-edge AI technologies to ensure accuracy and efficiency. It utilizes advanced face recognition to verify employee or student identities, eliminating the risks of proxy attendance. The system also includes location verification using GPS, ensuring that attendance is marked only from designated premises.
+Additionally, the app supports real-time data synchronization, allowing organizations to track attendance instantly. It includes  location authentication, and biometric validation for enhanced security. With automated reports, shift management, and leave tracking, our app provides a comprehensive and tamper-proof solution for modern attendance management."
+                android:textSize="16sp"
+                android:fontFamily="@font/adlam_display"
+                android:gravity="center"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/textColorLight" />
+
+            <!-- Visit Website Button -->
+            <Button
+                android:id="@+id/btn_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visit Our Website"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold"
+                android:fontFamily="@font/adlam_display"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/buttonColor" />
+
+            <!-- Contact Email Button -->
+            <Button
+                android:id="@+id/btn_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold"
+                android:fontFamily="@font/adlam_display"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/buttonColor" />
+
+            <!-- Team Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meet Our Team"
+                android:textSize="18sp"
+                android:fontFamily="@font/adlam_display"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <!-- Team Members -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/profile_image"
+                        android:contentDescription="TeamMember1"
+                        android:layout_margin="8dp" />
+                    <!-- Team Section -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TeamMember"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/adlam_display"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/profile_image"
+                        android:contentDescription="TeamMember1"
+                        android:layout_margin="8dp" />
+                    <!-- Team Section -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TeamMember"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/adlam_display"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/profile_image"
+                        android:contentDescription="TeamMember1"
+                        android:layout_margin="8dp" />
+                    <!-- Team Section -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TeamMember"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/adlam_display"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
