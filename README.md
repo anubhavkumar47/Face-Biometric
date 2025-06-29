@@ -52,7 +52,7 @@ The app is available on the Play Store:
 ![Screenshot_2025-04-04-19-22-29-572_com facebiometric app](https://github.com/user-attachments/assets/addbf93c-32d9-452e-82d2-306791710c09)
 ---![Screenshot_2025-04-04-19-22-26-673_com facebiometric app](https://github.com/user-attachments/assets/284cd484-c985-4804-a2de-3b176edce2ec)
 ![Screenshot_2025-04-04-19-22-22-057_com facebiometric app](https://github.com/user-attachments/assets/7c62f24b-54dc-4df3-8cf6-8576ce160c99)
-![Uploading Screenshot_2025-04-04-19-22-35-668_com.facebiometric.app.jpg…](_![Screenshot_2025-04-04-19-19-59-013_com facebiometric app](https://github.com/user-attachments/assets/26dcdbfb-8aa5-4fb1-a752-b3a741a05ea3)
+![Uploading Screenshot_2025-04-04-19-22-35-668_com.facebiometric.app.jpg…]
 ![Screenshot_2025-04-04-20-03-04-797_com android chrome](https://github.com/user-attachments/assets/8e6ffd52-a6bb-438d-9841-f6e68719eece)
 ![Screenshot_2025-04-04-19-38-38-567_com facebiometric app](https://github.com/user-attachments/assets/048487ff-c549-42cb-b1ef-ce6a77b93f18)
 ![Screenshot_2025-04-04-19-39-41-380_com facebiometric app](https://github.com/user-attachments/assets/3f0f49f6-72fb-4393-ba19-4b4f8ceac139)
