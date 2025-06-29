@@ -46,27 +46,26 @@ The app is available on the Play Store:
 4. If both match authorized criteria, attendance is marked and stored in Firebase ☁️
 5. Admins can view data in real time 🔍
 
- Eews ScreenShoots :-- 
+ Fews ScreenShoots :-- 
   
-![Screenshot_2025-04-04-19-22-50-207_com facebiometric app](https://github.com/user-attachments/assets/47b5c382-f10a-4a63-bcf5-6a133a4273f6)
-![Screenshot_2025-04-04-19-22-29-572_com facebiometric app](https://github.com/user-attachments/assets/addbf93c-32d9-452e-82d2-306791710c09)
----![Screenshot_2025-04-04-19-22-26-673_com facebiometric app](https://github.com/user-attachments/assets/284cd484-c985-4804-a2de-3b176edce2ec)
-![Screenshot_2025-04-04-19-22-22-057_com facebiometric app](https://github.com/user-attachments/assets/7c62f24b-54dc-4df3-8cf6-8576ce160c99)
-![Uploading Screenshot_2025-04-04-19-22-35-668_com.facebiometric.app.jpg…]
-![Screenshot_2025-04-04-20-03-04-797_com android chrome](https://github.com/user-attachments/assets/8e6ffd52-a6bb-438d-9841-f6e68719eece)
-![Screenshot_2025-04-04-19-38-38-567_com facebiometric app](https://github.com/user-attachments/assets/048487ff-c549-42cb-b1ef-ce6a77b93f18)
-![Screenshot_2025-04-04-19-39-41-380_com facebiometric app](https://github.com/user-attachments/assets/3f0f49f6-72fb-4393-ba19-4b4f8ceac139)
-![Screenshot_2025-04-04-19-38-21-631_com facebiometric app](https://github.com/user-attachments/assets/1201a0f5-accf-45fc-aa56-d270c2c59285)
-![Screenshot_2025-04-04-19-38-08-580_com facebiometric app](https://github.com/user-attachments/assets/5faa5026-727f-408c-895a-cf1f771e8954)
-![Screenshot_2025-04-04-19-22-35-668_com facebiometric app](https://github.com/user-attachments/assets/479db2d7-d006-49c6-bb15-b133c12c4092)
-![Screenshot_2025-04-04-19-40-16-473_com facebiometric app](https://github.com/user-attachments/assets/de140417-02ff-42e1-b0c0-e88f8d7b1f2d)
-![Screenshot_2025-04-04-19-21-34-963_com facebiometric app](https://github.com/user-attachments/assets/498f659a-98a8-4669-808b-f841171d1ad1)
-![Screenshot_2025-04-04-19-22-33-111_com facebiometric app](https://github.com/user-attachments/assets/62400583-af16-4419-840d-95f078d52d1e)
-![Screenshot_2025-04-04-19-21-08-152_com facebiometric app](https://github.com/user-attachments/assets/9fef1720-c406-4dbf-b8e8-0a50f0e471fa)
-![Screenshot_2025-04-04-19-21-13-745_com facebiometric app](https://github.com/user-attachments/assets/754c7326-676e-4c20-a2f1-c839e37c3d57)
-![Screenshot_2025-04-04-19-21-24-933_com facebiometric app](https://github.com/user-attachments/assets/b25300f0-d6ae-4b63-81a8-1223e0b02150)
-![Screenshot_2025-04-04-19-23-15-872_com facebiometric app](https://github.com/user-attachments/assets/a08db145-c87c-44df-bcb2-5afab4e44b89)
 
+![Screenshot_2025-04-04-19-22-50-207_com facebiometric app](https://github.com/user-attachments/assets/655374fa-1db2-4727-93dc-70d3ff0f094d)
+![Screenshot_2025-04-04-19-22-29-572_com facebiometric app](https://github.com/user-attachments/assets/44439508-0749-47ef-acca-3bbdc8e58c03)
+![Screenshot_2025-04-04-19-22-26-673_com facebiometric app](https://github.com/user-attachments/assets/f8163910-b684-40d4-b5d3-c2033fb895a8)
+![Screenshot_2025-04-04-19-22-22-057_com facebiometric app](https://github.com/user-attachments/assets/5fe05a0a-6bc2-44a2-8517-c9457027fa7b)
+![Screenshot_2025-04-04-19-22-35-668_com facebiometric app](https://github.com/user-attachments/assets/516a3f0b-0e13-42bf-9f52-a0d0c3f08e15)
+![Screenshot_2025-04-04-19-19-59-013_com facebiometric app](https://github.com/user-attachments/assets/4a6f20e1-be89-472b-85f5-590abb5247cc)
+![Screenshot_2025-04-04-19-38-38-567_com facebiometric app](https://github.com/user-attachments/assets/9e23055b-7d04-4b66-acd2-d14ff713aba8)
+![Screenshot_2025-04-04-19-39-41-380_com facebiometric app](https://github.com/user-attachments/assets/e6b53a07-2f25-491a-9cd3-84ce058c9a98)
+![Screenshot_2025-04-04-19-38-21-631_com facebiometric app](https://github.com/user-attachments/assets/d8faa8d0-0465-4771-85bf-c6b607661adf)
+![Screenshot_2025-04-04-19-38-08-580_com facebiometric app](https://github.com/user-attachments/assets/51b74772-fb7d-43ad-9f69-aeee34b013a6)
+![Screenshot_2025-04-04-19-40-16-473_com facebiometric app](https://github.com/user-attachments/assets/ea46256a-cdfa-4255-9aad-4060d9f70d21)
+![Screenshot_2025-04-04-19-21-34-963_com facebiometric app](https://github.com/user-attachments/assets/e35bcd83-58f2-49d6-8188-ad0b56dc2cad)
+![Screenshot_2025-04-04-19-22-33-111_com facebiometric app](https://github.com/user-attachments/assets/5db44c19-ff41-4797-a689-37106c59d263)
+![Screenshot_2025-04-04-19-21-08-152_com facebiometric app](https://github.com/user-attachments/assets/dc77de07-243b-425c-9e3a-0e145da3dc72)
+![Screenshot_2025-04-04-19-21-13-745_com facebiometric app](https://github.com/user-attachments/assets/c9665a3b-cafc-4f68-b9a4-c94712e5d472)
+![Screenshot_2025-04-04-19-21-24-933_com facebiometric app](https://github.com/user-attachments/assets/b82861ee-b94d-4862-9d44-e672b28d31a2)
+![Screenshot_2025-04-04-19-23-15-872_com facebiometric app](https://github.com/user-attachments/assets/67cbd5eb-5ee3-4ff1-9ffa-9cb03b3f2cba)
 
 ## 👨‍💻 Developer
 
