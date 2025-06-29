@@ -28,7 +28,7 @@ Welcome to the **Face-Biometric Attendance Management** Android app! This app us
 
 The app is available on the Play Store:
 
-🔗 [**Download from Play Store**]((https://play.google.com/store/apps/details?id=com.facebiometric.app)
+🔗 [**Download from Play Store**](https://play.google.com/store/apps/details?id=com.facebiometric.app)
 
 ---
 
