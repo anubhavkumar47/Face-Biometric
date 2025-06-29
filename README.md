@@ -1,6 +1,6 @@
-# 🎓 Face-Based Attendance Management App 📱
+# 🎓 Face-Biometric Attendance Management App 📱
 
-Welcome to the **Face Attendance Management** Android app! This app uses advanced **face biometrics** 🧠 and **location verification** 📍 to ensure secure and authentic attendance marking for schools, colleges, and workplaces.
+Welcome to the **Face-Biometric Attendance Management** Android app! This app uses advanced **face biometrics** 🧠 and **location verification** 📍 to ensure secure and authentic attendance marking for schools, colleges, and workplaces.
 
 ---
 
